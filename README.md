@@ -1,18 +1,22 @@
-# Student Score Prediction – ML Project
+# Student Score Prediction
 
-This is my first machine learning project.
+## About
+Predicts student final marks using ML.
 
-## What it does
-- Predicts student final marks
-- Uses Linear Regression
-- Visualizes relationships
-
-## Tools
+## Technologies
 - Python
 - pandas
 - matplotlib
 - scikit-learn
 
-## Author
-MD NAFIZ GAFFAR
-MSc Data Intelligence – Canterbury Christ Church University
+## Example
+
+```python
+new_student = pd.DataFrame([[5,80,65]],
+               columns=["hours","attendance","previous"])
+
+model.predict(new_student)
+```
+
+## Results
+Model evaluated using R2 and MSE.
